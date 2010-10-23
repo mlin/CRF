@@ -1,0 +1,3 @@
+description = "Enhanced log-probability library"
+archive(byte)="Elog.cma"
+archive(native)="Elog.cmxa"

@@ -1,0 +1,4 @@
+requires = "gsl,Elog"
+description = "Conditional Random Fields"
+archive(byte)="CRF.cma"
+archive(native)="CRF.cmxa"

@@ -1,0 +1,15 @@
+OCaml library for semi-Markov conditional random fields
+Author: Mike Lin <mlin@mlin.net>
+http://github.com/mlin/CRF
+
+Semi-Markov conditional random fields (SMCRFs) are a type of probabilistic graphical model used to
+produce segmentations of sequential data, such as gene finding in DNA sequences or named-entity
+recognition in natural language text. SMCRFs are a discriminative generalization of hidden Markov
+models and hidden semi-Markov models. This OCaml library provides a generic infrastructure for
+building SMCRFs, estimating their parameters based on training data, and applying them to segment
+new examples of interest.
+
+Status: the code is pretty stable, but there is no tutorial documentation yet, which is sorely
+needed for a complex topic like this. Working on it.
+
+Requires: GNU Scientific Library, ocamlgsl and ocaml+twt
